@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+
+@import url(https://fonts.googleapis.com/css?family=Cutive+Mono);
+
+body{
+	font-family: 'Cutive Mono';
+	background-color:rgba(0,0,0,1.00);
+	color:rgba(255,255,255,1.00);
+	/*overflow:hidden;*/
+}
+
+body * {
+    z-index: 20;
+    color: rgba(0,0,0,1);
+    font-weight: bold;
+}
+
+.text-container {
+    position: relative;
+  width: 80%;
+    top: 50px;
+  float: right;
+}
+
+header{
+	font-family: 'Old Standard TT', serif;
+	font-size:200%;
+	font-weight:700;
+	letter-spacing:1px;
+	margin-bottom:20px;
+	text-decoration:underline;
+	
+}
+h1{
+    font-size: 3.3rem;
+    display: flex;
+    margin: 30px 20px;
+}
+
+#resumeh2{
+    margin-top:20px;
+    text-decoration: underline;
+}
+
+h2{
+	font-family: 'Old Standard TT', serif;
+	font-weight:bold;
+	font-size:20px;
+	height:20px;
+	margin:10px 0px;
+}
+
+h3{
+	font-family: 'Old Standard TT', serif;
+	font-weight:400;
+	margin-bottom:10px;
+}
+
+h4{
+	font-family: 'Old Standard TT', serif;
+	font-style:italic;
+	font-weight:400;
+	font-size:12px;
+	margin:0px;
+	margin-top:-15px;
+}
+
+.section{
+	margin:10px;
+	margin-left:2%;
+	width:35%;
+}
+
+#AboutME{
+	float:left;
+}
+
+#education{
+	float:left;
+}
+
+#skills{
+	float:left;
+}
+
+
+#about{
+	float:left;
+}
+
+#contact{
+	float:left;
+}
+
+#Languages{
+	float:left;
+}
+
+
+
+/*/////////////////////////////////  FLASHLIGHT EFFECT ////////////////////////////  */
+
+#light {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 19;
+    -webkit-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 150px 166px rgb(42, 38, 43);
+
+}
+
+
+/*//////////////////////////////// END FLASHLIGHT EFFECT ///////////////////////////  */
